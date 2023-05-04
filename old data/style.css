@@ -1,0 +1,96 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+  }
+  
+.headerImage {
+    width: 400px;
+}
+
+  h1 {
+    margin-top: 50px;
+  }
+  
+  .types {
+    margin-top: 50px;
+  }
+  
+  .btn {
+    margin: 10px;
+    padding: 10px;
+    font-size: 18px;
+    width: 75px;
+  }
+
+  .btn:hover {
+    color: white;
+
+  }
+  
+  .result {
+    margin-top: 50px;
+  }
+  
+  .result p {
+    font-size: 24px;
+  }
+
+  #scores {
+    font-size: 24px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px
+  }
+
+  #scores__player {
+    display: flex;
+  }
+
+  #scores__computer {
+    display: flex;
+  }
+
+  .scores__individual {
+    border-style: solid;
+    width: 70px;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  /* .shinies__individual {
+    border-style: solid;
+    width: 70px;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  } */
+
+  /* define type colors */
+:root {
+  --grass-color: #78C850;
+  --fire-color: #F08030;
+  --water-color: #0645ad;
+}
+
+/* set button hover background color to type */
+
+#btn--grass:hover {
+  background-color: var(--grass-color);
+}
+#btn--fire:hover {
+  background-color: var(--fire-color);
+}
+#btn--water:hover {
+  background-color: var(--water-color);
+}
+
+
+/* set flex box for gameplay section */
+#gameplay {
+  display: flex;
+  justify-content: space-around;
+}
